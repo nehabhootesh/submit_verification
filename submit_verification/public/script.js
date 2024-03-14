@@ -42,7 +42,7 @@ async function submitPassengerVerification() {
     const walletAddress = document.getElementById('passengerWalletAddress').value;
   
     try {
-        const response = await fetch('http://localhost:3003/submit-passenger-verification', {
+        const response = await fetch('https://submit-verification.onrender.com/submit-passenger-verification', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
