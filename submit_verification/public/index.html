@@ -1,0 +1,77 @@
+<!-- index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Verification Page</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Verification Page</h2>
+        <form id="verificationForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="hashValue">Hash Value:</label>
+            <input type="text" id="hashValue" name="hashValue" required>
+
+            <button type="button" id="submitBtn">Submit</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> -->
+<!-- above code works well for the verfication submission -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Verification Page</title>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+        <h2>Passenger Verification</h2>
+        <form id="passengerVerificationForm">
+            <label for="passengerName">Name:</label>
+            <input type="text" id="passengerName" name="name" required>
+
+            <label for="passengerHashValue">Hash Value:</label>
+            <input type="text" id="passengerHashValue" name="hashValue" required>
+
+            <label for="passengerWalletAddress">MetaMask Wallet Address:</label>
+            <input type="text" id="passengerWalletAddress" name="walletAddress" required>
+
+            <button type="button" onclick="submitPassengerVerification()">Submit</button>
+            <button type="button" onclick="checkstatus()">Check Status</button>
+        </form>
+    </div>
+</div>
+    <div class="container">
+        <div class="card">
+        <h2>Driver Verification</h2>
+        <form id="driverVerificationForm">
+            <label for="driverName">Name:</label>
+            <input type="text" id="driverName" name="name" required>
+
+            <label for="driverHashValue">Hash Value:</label>
+            <input type="text" id="driverHashValue" name="hashValue" required>
+
+            <label for="driverWalletAddress">MetaMask Wallet Address:</label>
+            <input type="text" id="driverWalletAddress" name="walletAddress" required>
+
+            <button type="button" onclick="submitDriverVerification()">Submit</button>
+            <button type="button" onclick="checkstatus()">Check Status</button>
+        </form>
+    </div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
