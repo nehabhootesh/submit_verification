@@ -107,5 +107,5 @@ async function submitDriverVerification() {
   }
   function checkstatus() {
     // Assuming the verification server is running on localhost:3000
-    window.location.href = 'http://localhost:3005'; // Change this URL as needed
+    window.location.href = 'https://check-verification-status.onrender.com'; // Change this URL as needed
 }
