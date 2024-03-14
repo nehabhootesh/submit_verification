@@ -7,7 +7,7 @@
 //         const hashValue = document.getElementById('hashValue').value;
 
 //         try {
-//             const response = await fetch('http://localhost:3000/submit-verification', {
+//             const response = await fetch('https://submit-verification.onrender.com//submit-verification', {
 //                 method: 'POST',
 //                 headers: {
 //                     'Content-Type': 'application/json',
